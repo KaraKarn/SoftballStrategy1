@@ -1,0 +1,80 @@
+<resources>
+    <!-- General / Multi Use Strings -->
+    <string name="backButtonText">Back</string>
+    <string name="backButtonDesc">Back Button</string>
+
+    <!-- Starting Menu Strings -->
+    <string name="app_name">Softball Strategy</string>
+    <string name="startText">Welcome to Softball Strategy!</string>
+    <string name="beginButton">Begin Training</string>
+
+    <!-- Select Strategy Menu Strings -->
+    <string name="catSelectHeaderText">Select Strategy Situation:</string>
+    <string name="catSelectHeaderDesc">Category Select Header</string>
+    <string name="choice1TextEx">Cut-Off Situations</string>
+    <string name="choice1ButDesc">1st Choice Button</string>
+    <string name="choice2TextEx">Double Cut Situations</string>
+    <string name="choice2ButDesc">2nd Choice Button</string>
+    <string name="choice3TextEx">1st and 3rd Situations</string>
+    <string name="choice3ButDesc">3rd Choice Button</string>
+    <string name="choice4TextEx">Sacrifice Bunt Defense</string>
+    <string name="choice4ButDesc">4th Choice Button</string>
+
+    <!-- Explanation Screen Strings -->
+    <string name="selectPosition">Select Your Position</string>
+    <string name="whatAreCutOffs">\t \t When a ball is hit to the outfield, it’s not always the best strategy to have the outfielder throw it in all the way — especially if there are runners moving around the bases. \n \n \t \t Depending on the situation, it’s sometimes faster for the infielders to cut off an outfielder’s throw midway as it travels to the infield.</string>
+
+
+
+    <!-- Situation Screen Strings -->
+    <string name="sitTypeHeadEx">Cut-Off: No Runners On:</string>
+    <string name="sitHitLocEx">Single to Center Field</string>
+    <string name="sitDescEx">\t On a single to center field the second baseman will be the cutoff to second base. The shortstop will cover the bag. The pitcher must position himself to back up second base.</string>
+    <string name="sitSolImgViewDescr">Strategy Solution imageView</string>
+
+    <!-- Programming Strings -->
+    <string name="situationNumber">10</string>
+    <string name="backNumber">0</string>
+    <string name="softballIcon1">Softball Icone Facing Right</string>
+    <string name="softballIcon2">Softball Icone Facing Right</string>
+
+    <!-- Situation Answer Strings -->
+    <!-- Cut-Off Situations-->
+    <!-- Cut-Off No Runners On -->
+    <string name="cutOffNoRunSingLeft"><b>Shortstop:</b> will be the cutoff to second base.\n \n<b>2nd Basemen:</b> will cover the bag.\n \n<b>1st Basemen:</b> should primarily back up the throw from left and then move towards first. This will put him into position to receive a throw at first in case the runner takes too large of a turn. </string>
+    <string name="cutOffNoRunSingCenter"><b>2nd Basemen:</b> will be the cutoff to second base.\n \n<b>Shortstop:</b> will cover the bag.\n \n<b>Pitcher:</b> must position themselves to back up second base.</string>
+    <string name="cutOffNoRunSingRight"><b>2nd Basemen:</b> will be the cutoff to second base.\n \n<b>Shortstop:</b> will cover the bag.\n \n<b>3rd Baseman &amp; Left Fielder:</b> must back up second.\n \n<b>1st Basemen:</b>  must get close to first and be ready for a throw behind the runner.</string>
+
+    <!-- Cut-Off Runner On 1st -->
+    <string name="cutOffRun1SingLeft"><b>Shortstop:</b> will be the cutoff to third base.\n \n<b>Second Basemen:</b> will cover 2nd Base.\n \n<b>Pitcher:</b> must hustle to get in position to back up third base. \n \n<b>Catcher:</b> should also be in a position to back up the throw</string>
+    <string name="cutOffRun1SingCenter"><b>Shortstop:</b> will be the cutoff to third base.\n \n<b>Second Basemen:</b> will cover 2nd Base.\n \n<b>Pitcher:</b> must hustle to get in position to back up third base. \n \n<b>Left-Fielder:</b>Unless the ball is hit to left center, the left fielder should move in to help back up third base.</string>
+    <string name="cutOffRun1SingRight"><b>Shortstop:</b> will be the cutoff to third base.\n \n<b>Second Basemen:</b> will cover 2nd Base.\n \n<b>Pitcher:</b> must hustle to get in position to back up third base. \n \n<b>Left-Fielder:</b>should move in to help back up third base.</string>
+    <!-- SIDE NOTE: With younger players you may want to have the second baseman be the cut on this play. It depends on the arm strength of the right fielder. In general you want to have the second baseman be the cutoff person if the shortstop would have to go on the second base side to be in proper position. -->
+
+    <!-- Cut-Off Runner On 2nd -->
+    <string name="cutOffRun2SingLeft"><b>3rd Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 3rd base.\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.\n \n<b>Center-Field:</b> should start toward left and once the ball has been fielded cleanly, he should go to back up second in case a throw is made there either from the cutoff or the catcher.</string>
+    <string name="cutOffRun2SingCenter"><b>1st Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 2nd Base.\n \n<b>2nd Baseman: will cover 1st Base.</b>\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.\n \n<b>Center-Field:</b> should start toward right and once the ball has been fielded cleanly, he should go to back up second in case a throw is made there either from the cutoff or the catcher.</string>
+    <string name="cutOffRun2SingRight"><b>1st Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 2nd Base.\n \n<b>2nd Baseman: will cover 1st Base.</b>\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.\n \n<b>Center-Field:</b> should start toward right and once the ball has been fielded cleanly, he should go to back up second in case a throw is made there either from the cutoff or the catcher.</string>
+    <!-- SIDE NOTE:The diagram below shows both options, with the only difference being the position of the first baseman as the cutoff.-->
+
+    <!-- Cut-Off Runner On 3rd -->
+    <string name="cutOffRun3SingLeft"><b>3rd Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 3rd base.\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.\n \n<b>Center-Field:</b> should start toward left and once the ball has been fielded cleanly, he should go to back up second in case a throw is made there either from the cutoff or the catcher.</string>
+    <string name="cutOffRun3SingCenter"><b>1st Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 2nd Base.\n \n<b>2nd Baseman: will cover 1st Base.</b>\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.</string>
+    <string name="cutOffRun3SingRight"><b>1st Baseman:</b> will be the cutoff to home.\n \n<b>Shortstop:</b> will cover 2nd Base.\n \n<b>2nd Baseman: will cover 1st Base.</b>\n \n<b>Pitcher:</b> will backup home.\n \n<b>Catcher:</b> will make the call if a cut is needed and to what base.\n \n<b>Center-Field:</b> should start toward right and once the ball has been fielded cleanly, he should go to back up second in case a throw is made there either from the cutoff or the catcher.</string>
+
+    <!-- Double-Cut Situations -->
+    <!-- Double-Cut No Runners On -->
+    <string name="doubleCutNoRunInfo"><br />On any hit into the gaps or down the lines with no runners on base and the outfielders are unable to cut it off, your middle infield should automatically move into double cutoff position for a throw to third base.</string>
+    <string name="doubleCutNoRunLeftCenter"><b>Shorstop:</b> move out towards the ball and be the first person in line for the throw.\n \n<b>2nd Baseman:</b> line up about 10 yards behind the first infielder. \n \nThe Infielders need to be spaced so that together they can cover the most space on the throw coming in. <b>1st Baseman:</b> has the important role of trailing the hitter to 2nd Base. If the runner stops between 2nd and 3rd, the <b>1st Baseman</b> has to be in position to get a throw at 2nd either from the cutoff or in a run-down situation.</string>
+    <string name="doubleCutNoRunRightCenter"><b>2nd Baseman:</b> move out towards the ball and be the first person in line for the throw.\n \n<b>Shortstop:</b> line up about 10 yards behind the first infielder. \n \nThe Infielders need to be spaced so that together they can cover the most space on the throw coming in. <b>1st Baseman:</b> has the important role of trailing the hitter to 2nd Base. If the runner stops between 2nd and 3rd, the <b>1st Baseman</b> has to be in position to get a throw at 2nd either from the cutoff or in a run-down situation.</string>
+
+    <!-- Double-Cut Runner On 1st -->
+    <string name="doubleCutRun1Info">On any hit into the gaps or down the lines with a runner at first and the outfielders are unable to cut it off, your first thought is to try and stop the runner from first from scoring. If the runner has average or better speed, this can be difficult to do. As you work on this play during practice make sure you use a runner at home and first and give the defense opportunities to make plays on both runners. Many times your team will have a better opportunity of throwing out the trailing runner at third than getting the lead runner at home.</string>
+    <string name="doubleCutRun1LeftCenter"><b>Shorstop:</b> move out towards the ball and be the first person in line for the throw.\n \n<b>2nd Baseman:</b> line up about 10 yards behind the first infielder. \n \nThe Infielders need to be spaced so that together they can cover the most space on the throw coming in. <b>1st Baseman:</b> has the important role of trailing the hitter to 2nd Base. If the runner stops between 2nd and 3rd, the <b>1st Baseman</b> has to be in position to get a throw at 2nd either from the cutoff or in a run-down situation.</string>
+    <string name="doubleCutRun1RightCenter"><b>2nd Baseman:</b> move out towards the ball and be the first person in line for the throw.\n \n<b>Shortstop:</b> line up about 10 yards behind the first infielder. \n \nThe Infielders need to be spaced so that together they can cover the most space on the throw coming in. <b>1st Baseman:</b> has the important role of trailing the hitter to 2nd Base. If the runner stops between 2nd and 3rd, the <b>1st Baseman</b> has to be in position to get a throw at 2nd either from the cutoff or in a run-down situation.</string>
+
+    <!-- Un-categorized Strings -->
+    <string name="noRunnersOn">No Runners ON</string>
+    <string name="runnerOn1st">Runner On 1st</string>
+
+</resources>

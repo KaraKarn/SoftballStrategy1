@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cutoffNoRunLeftField">
+        <!--0--><item name="General">General Notes: All players should start by setting up for a cut-off throw to 2nd-base, unless the hit-location makes it more likely you will need a cut-off to 3rd-base. \nListen to your Coach or Team Captain making the call!</item>
+        <!--1--><item name="Pitcher">Pitcher: will help backup the throw by standing between the pitchers mound and 2nd-base or between the pitchers mound and 3rd-base depending on where the play is. Remember to listen to your Coach/Captain!</item>
+        <!--2--><item name="Catcher">Catcher: will follow the runner down the line and backup 1st base in case the runner takes too large of a turn and/or theres a throw to 1st. If the play is at 3rd-base, hustle over to back up the throw.</item>
+        <!--3--><item name="1stBaseman">1st Baseman: should primarily back up the throw from left and then move towards first. This will put him into position to receive a throw at first in case the runner takes too large of a turn.</item>
+        <!--4--><item name="2ndBaseman">2nd Baseman: will cover the bag.</item>
+        <!--5--><item name="Shortstop">Shortstop: will be the cutoff and lineup to throw to 2nd-base or 3rd-base depending on hit location.</item>
+        <!--6--><item name="3rdBaseman">3rd Baseman: should stay near 3rd-base, in case the runner is able to round 2nd-base on a missed ball.</item>
+        <!--7--><item name="LeftField">Left-Fielder: after fielding the ball, throw to the cut-off(shortstop) in line with 2nd-base or 3rd-base depending on where the play is. Remember to listen to your Coach/Captain!</item>
+        <!--8--><item name="CenterField">Center-Fielder: should run towards the hit location in-case help is needed.</item>
+        <!--9--><item name="RightField">Right-Fielder: will run forward and backup the throw to 2nd-base, being ready to run to back-up the throw to 1st-base if necessary.</item>
+    </string-array>
+</resources>

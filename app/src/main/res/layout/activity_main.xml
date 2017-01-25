@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jamestic.softballstrategy.ui.MainActivity"
+    android:background="@color/colorInfield">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title_softball_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/titleImageView"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/app_name"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menuButtonLayout"
+        android:layout_below="@id/titleImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!-- might be too much on home screen, take this out if so -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/homeplate2"
+            android:id="@+id/homeBackground"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/homeplate"
+            android:background="@drawable/homeplate"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:text="@string/beginButton"
+            android:layout_height="wrap_content"
+            android:id="@+id/startText"
+            android:textStyle="normal|bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_width="150dp"
+            android:layout_marginTop="21dp"
+            android:layout_alignTop="@+id/startButton"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

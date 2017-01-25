@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f88b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorInfield">#8c4804</color>
+    <color name="colorOutfield">#006600</color>
+    <color name="colorRed">#bd0900</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSoftball">#f8e919</color>
+    <color name="colorInfield2">#ba6600</color>
+    <color name="ColorInfieldGrass">#009f0d</color>
+</resources>

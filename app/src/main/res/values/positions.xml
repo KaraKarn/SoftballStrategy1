@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position_array">
+        <item>All</item>
+        <item>Pitcher</item>
+        <item>Catcher</item>
+        <item>1st Base</item>
+        <item>2nd Base</item>
+        <item>3rd Base</item>
+        <item>Left Field</item>
+        <item>Center Field</item>
+        <item>Right Field</item>
+    </string-array>
+</resources>
